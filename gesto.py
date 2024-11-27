@@ -46,7 +46,7 @@ while True:
     # Mostrar el texto con el gesto detectado
     cv2.putText(frame, f'Gesto detectado: {gesture}', (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
-    # Mostrar la imagen en tiempo real
+    # Mostrar la imagen en tiempo realc
     cv2.imshow("Frame", frame)
 
     # Salir si se presiona la tecla 'q'
